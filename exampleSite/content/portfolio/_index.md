@@ -3,4 +3,8 @@ title: PORTFOLIO
 description: 'Portfolio Section'
 ---
 
-You'll add here a general introduction of your portfolio page.
+Previous Publications:
+The Cypress Dome 2016
+The Cypress Dome 2018
+The Acentos Review
+The Golden Walkman
