@@ -1,6 +1,6 @@
 ---
 title: ABOUT
-description: Hey, I'm Edna West
+description: Hey, I'm Christopher Luis-Jorge
 images: ["/images/sample.jpg"]
 ---
 
