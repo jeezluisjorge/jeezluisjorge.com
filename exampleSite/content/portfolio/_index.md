@@ -3,12 +3,14 @@ title: PORTFOLIO
 description: 'Portfolio Section'
 ---
 
-Previous Publications:
+Previous Publications/Productions:
 
-The Cypress Dome 2016
+[The Golden Walkman May 2020](https://www.goldwalkmag.com/issues.html)
+
+[The Acentos Review August 2019](https://www.acentosreview.com/august2019/misbehavior-by-christopher.html)
 
 The Cypress Dome 2018
 
-The Acentos Review
+Project Spotlight One Act Festival
 
-The Golden Walkman
+The Cypress Dome 2016
