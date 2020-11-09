@@ -70,18 +70,18 @@ pygmentsCodeFences=true
   weight = -120
 
 [[menu.main]]
-  identifier = "portfolio"
-  name = "Portfolio"
-  title = "Portfolio"
+  identifier = "publications"
+  name = "Publications"
+  title = "publications"
   url = "/portfolio/"
   weight = -110
 
 [[menu.main]]
-  identifier = "blog"
-  name = "Post"
-  title = "Blog section"
-  url = "/post/"
-  weight = -100
+  [[identifier = "blog"]]
+  [[name = "Post"]]
+  [[title = "Blog section"]]
+  [[url = "/post/"]]
+  [[weight = -100]]
 
 [sitemap]
   changefreq = "monthly"
