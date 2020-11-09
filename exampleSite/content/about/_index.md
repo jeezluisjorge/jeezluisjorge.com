@@ -5,6 +5,8 @@ images: ["/images/sample.jpg"]
 ---
 
 
-This is my about page. :wave:
+Hi, I'm Christopher Luis-Jorge. :wave:
 
-Lorem ipsum dolor sit amet, :smile: consectetur adipisicing elit. Voluptates aut, tenetur distinctio voluptatibus ab. Nihil id dignissimos unde, tenetur iusto facilis suscipit corporis, ipsam necessitatibus, eaque iste deleniti consequuntur reprehenderit? :earth_africa:
+I'm an emerging Cuban-American author based in Philadelphia who specializes in the playful, the irreverent, and the brief. My work has been featured Golden Walkman, The Acentos Review, and The Cypress Dome. I write fiction, personal essays, stage plays, and screenplays.
+
+I'm currently wrapping up my MFA from Rutgers University-Camden and have a Bachelor's in Theatre from the University of Central Florida.
