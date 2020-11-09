@@ -48,16 +48,12 @@ pygmentsCodeFences=true
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/"
-  twitter = "https://twitter.com/"
+  github = "https://github.com/jeezluisjorge"
+  twitter = "https://twitter.com/jeezluisjorge"
   linkedin = "https://www.linkedin.com/in/"
-  medium = "https://medium.com/"
-  codepen = "https://codepen.io/"
-  facebook = "https://www.facebook.com/"
-  youtube = "https://www.youtube.com/"
-  instagram = "https://www.instagram.com/"
-  gitlab = "https://gitlab.com/"
-  keybase = "https://keybase.io/"
+  facebook = "https://www.facebook.com/jeezluisjorge/"
+  youtube = "https://www.youtube.com/channel/UCQvrWHEAcDO3N9L5_GNB9Ew"
+  instagram = "https://www.instagram.com/jeezluisjorge/"
 
 [params.contact]
   email = ""
