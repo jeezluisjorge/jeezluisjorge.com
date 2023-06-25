@@ -3,7 +3,7 @@ title: "Publications"
 type: page
 ---
 
-<a href="https://www.thedreadmachine.com/picadillo/" target="_blank">Picadillo</a>
+<a href="https://www.thedreadmachine.com/picadillo/" target="_blank" style="font-size:26px;">Picadillo</a>
 
 <a href="https://thefuriousgazelle.com/2021/09/13/learning-to-wipe-by-christopher-luis-jorge/" target="_blank">Learning to Wipe</a>
 
@@ -17,11 +17,11 @@ type: page
 
 &nbsp;
 
-#### Not available online 
+#### Not available online - email me for a copy
 
 Oreo Fixation - published in Cypress Dome, 2018
 
 The Great Fire of Rome - featured in Project Spotlight One Act Festival, 2016
 
-In a Cafe - featured in Cypress Dome, 2016
+In a Cafe - published in Cypress Dome, 2016
 
