@@ -1,6 +1,6 @@
----
-title: "Publications"
----
++++
+title = "Publications"
++++
 
 
 <a href="https://www.thedreadmachine.com/picadillo/" target="_blank">Picadillo</a>
