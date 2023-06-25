@@ -3,17 +3,17 @@ title: "Publications"
 type: page
 ---
 
-<a href="https://www.thedreadmachine.com/picadillo/" target="_blank" style="font-size:4vw;">Picadillo</a>
+<a href="https://www.thedreadmachine.com/picadillo/" target="_blank" style="font-size:3vw;">Picadillo</a>
 
-<a href="https://thefuriousgazelle.com/2021/09/13/learning-to-wipe-by-christopher-luis-jorge/" target="_blank" style="font-size:4vw;">Learning to Wipe</a>
+<a href="https://thefuriousgazelle.com/2021/09/13/learning-to-wipe-by-christopher-luis-jorge/" target="_blank" style="font-size:3vw;">Learning to Wipe</a>
 
-<a href="https://www.stoneboatwi.com/issue-11-1/luis-jorge" target="_blank" style="font-size:4vw;">The Duel // Marching Season</a>
+<a href="https://www.stoneboatwi.com/issue-11-1/luis-jorge" target="_blank" style="font-size:3vw;">The Duel // Marching Season</a>
 
-<a href="https://decodedpride.com/decoded-pride-issue-2-stories-being-released-now-and-throughout-pride/" target="_blank" style="font-size:4vw;">The Door Knocker</a>
+<a href="https://decodedpride.com/decoded-pride-issue-2-stories-being-released-now-and-throughout-pride/" target="_blank" style="font-size:3vw;">The Door Knocker</a>
 
-<a href="https://open.spotify.com/episode/35WusbrFfrIYccceEdxd44" target="_blank" style="font-size:4vw;">Male Pattern Baldness</a>
+<a href="https://open.spotify.com/episode/35WusbrFfrIYccceEdxd44" target="_blank" style="font-size:3vw;">Male Pattern Baldness</a>
 
-<a href="https://www.acentosreview.com/august2019/misbehavior-by-christopher.html" target="_blank" style="font-size:4vw;">Misbehavior</a>
+<a href="https://www.acentosreview.com/august2019/misbehavior-by-christopher.html" target="_blank" style="font-size:3vw;">Misbehavior</a>
 
 &nbsp;
 
