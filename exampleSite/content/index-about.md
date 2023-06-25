@@ -1,5 +1,4 @@
-Writer + Musician
+## Recent Publications
 
-Learn more about me 
+<a href="https://www.thedreadmachine.com/picadillo//"><img src="/images/picadillo.png" style="width:50px;height:50px;"></a>
 
-Read my work here
