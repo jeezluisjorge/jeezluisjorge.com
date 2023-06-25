@@ -1,4 +1,4 @@
-<h1> Recent Publications </h1>
+## Recent Publications
 
 &nbsp;
 
