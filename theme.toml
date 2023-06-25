@@ -1,16 +1,24 @@
-# Congo theme for Hugo
+name = "Poison"
+license = "GPL-3.0 License"
+licenselink = "https://github.com/lukeorth/poison/blob/master/LICENSE.md"
+description = "A pragmatic Hugo theme for bloggers.  Based on the classic \"Hyde\" design by mdo."
+min_version = "0.41.0"
 
-name = "congo"
-license = "MIT"
-licenselink = "https://github.com/jpanther/congo/blob/master/LICENSE"
-description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+# The home page of the theme, where the source can be found.
+homepage = "https://github.com/lukeorth/poison"
 
-homepage = "https://github.com/jpanther/congo/"
-demosite = "https://jpanther.github.io/congo/"
+# If you have a running demo of the theme.
+demosite = "https://poison.lukeorth.com"
 
-tags = ["blog", "minimal", "responsive", "dark mode", "dark", "light", "tailwind", "personal"]
-features = ["syntax higlighting", "dark mode", "emoji"]
+tags = ["blog", "personal", "dark", "dark-mode", "light", "minimal"]
+features = ["blog", "katex", "table-of-contents", "tabs", "dark-mode", "series"]
 
 [author]
-  name = "James Panther"
-  homepage = "https://jamespanther.com/"
+    name = "Luke Orth"
+    homepage = "https://lukeorth.com"
+
+# If Porting existing theme
+[original]
+    author =  "mdo"
+    homepage = "http://markdotto.com/"
+    repo = "https://www.github.com/mdo/hyde"
