@@ -1,18 +1,26 @@
-<!doctype html>
-<html lang="en"  class="h-100">
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="">
+  	<meta name="author"      content="{{ .Site.Author }}">
+    
+    {{ partial "head/head.html" . }}
+  </head>
+  
+  <body class="home">
 
-{{- partial "head.html" . }}
-
-<body class="d-flex md h-100 container-sm text-white bg-dark"> 
-<div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
-
-  {{- partial "header.html" . }}
-
-<div id="content">
-  {{- block "main" . }}{{ end }}
-  </div>
-
-  {{- partial "footer.html" . }}
-
-</body>
+    {{ block "header" . }}
+      {{ partial "head/header.html" . }}
+    {{ end }}
+ 
+    {{ block "main" . }}
+    {{ end }}
+    
+    {{ block "footer" . }}
+      {{ partial "footer/footer.html" . }}
+    {{ end }}
+  </body>
+  
 </html>
