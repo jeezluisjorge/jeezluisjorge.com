@@ -43,6 +43,11 @@ pygmentsStyle = "monokai"
   ]
   metaKeywords = ["blog", "gokarna", "hugo"]
 
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
     name = "Home"
