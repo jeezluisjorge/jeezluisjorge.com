@@ -44,21 +44,23 @@ pygmentsStyle = "monokai"
 [menu]
   [[menu.main]]
     name = "Home"
-    pre = "<span data-feather='home'></span>"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "Publications"
-    pre = "<span data-feather='book'></span>"
-    url = "/publications/"
+    name = "About"
+    url = "/about/"
     weight = 2
 
   [[menu.main]]
-    name = "Contact"
-    pre = "<span data-feather='book'></span>"
-    url = "/contact/"
+    name = "Publications"
+    url = "/publications/"
     weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
 
 [markup]
   [markup.tableOfContents]
