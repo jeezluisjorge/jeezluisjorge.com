@@ -1,42 +1,38 @@
 {{ define "main" }}
-	<div id="page-wrapper">
+<main id="main">
 
-		<!-- Header -->
-			<div id="header-wrapper">
-				<div id="header">
-					{{ partial "logo.html" . }}
-					{{ partial "nav.html" . }}
-				</div>
+	<div class="container">
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+        {{ range .Paginator.Pages }}
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+               <span class="posted-on">
+                  <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
+                  {{- .Date.Format "January 2, 2006" -}}
+                  </time>
+               </span>
+						</div>
+						<h1 class="entry-title">
+						  <a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a>
+						</h1>
+					</header>
+					<div class="entry-content">
+						{{ .Content }}
+					</div>
+				</article>
+        {{ end }}
 			</div>
+		</div>
 
-						<!-- Main -->
-			<div id="main-wrapper">
-				<div class="container">
+		<center class="">
+			<ul class="pagination">
+        {{ template "_internal/pagination.html" . }}
+			</ul>
+		</center>
+	</div>	<!-- /container -->
 
-					{{- $paginator := .Paginate (where .Data.Pages "Type" .Site.Params.Blog.foldername) }}
-					{{- partial "blog.html" (dict "title" .Site.Params.Blog.title "paginator" $paginator) }}
-
-					<footer>
-						<ul class="actions" style="text-align: center">
-							{{ if $paginator.HasPrev }}
-							<li><a href="{{ .Site.BaseURL }}{{ $paginator.Prev.URL }}" class="button big">Prev</a></li>
-							{{ end }}
-							{{ if $paginator.HasNext }}
-							<li><a href="{{ .Site.BaseURL }}{{ $paginator.Next.URL }}" class="button alt big">Next</a></li>
-							{{ end }}
-						</ul>
-					</footer>
-
-				</div>
-			</div>
-
-			{{ partial "footer/index.html" . }}
-
-	</div>
-
-	{{ partial "scripts/index.html" . }}
-	{{ if .Site.Params.Settings.disqus }}
-	<script id="dsq-count-scr" src="//{{ .Site.Params.Settings.disqus }}.disqus.com/count.js" async></script>
-	{{ end }}
-		
+</main>
 {{ end }}

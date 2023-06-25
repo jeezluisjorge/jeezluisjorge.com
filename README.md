@@ -1,80 +1,132 @@
-# Hugo Theme Dopetrope
+# Initio theme for Hugo
 
-![](https://img.shields.io/badge/Hugo-%5E0.94.2-ff4088?style=flat-square&logo=hugo)
+![GitHub](https://img.shields.io/github/license/miguelsimoni/hugo-initio.svg?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/miguelsimoni/hugo-initio.svg?style=flat-square)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/miguelsimoni/hugo-initio.svg?style=flat-square)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/miguelsimoni/hugo-initio/main.svg?style=flat-square)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/miguelsimoni/hugo-initio.svg?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/miguelsimoni/hugo-initio.svg?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/miguelsimoni/hugo-initio.svg?style=flat-square)
+![GitHub watchers](https://img.shields.io/github/watchers/miguelsimoni/hugo-initio.svg?style=flat-square)
 
-Dopetrope theme ported from [HTML5 UP](https://html5up.net/) for use with the [Hugo static site generator](https://gohugo.io/).
+[Hugo-Initio](https://miguelsimoni.github.io/hugo-initio-site/) is ported from the [Initio](http://www.gettemplate.com/info/initio/) template by [GetTemplate.com](http://www.gettemplate.com/) for [Hugo](https://gohugo.io/).
 
-Theme includes ability for:
+![screenshot](https://raw.githubusercontent.com/miguelsimoni/hugo-initio/master/images/tn.png)
 
- - Portfolio items
- - Blog posts
+### Original Template Info
 
-![](images/device-screenshots.png)
+**Licensing:** Creative Commons (for more options, go to the [original template site](http://www.gettemplate.com/info/initio/))  
+**Released:** Feb 21, 2014  
+**Last Updated:** Feb 21, 2014  
+**Version:** 1.0  
+**Bootstrap:** 3.3.4 or higher  
+**Libraries:** jQuery  
+**Designer:** Sergey Pozhilov  
 
-## Demo
-
-https://hugo-theme-dopetrope.netlify.com/
-
-## Setup
-
-### Configuration
-
-See the demo's configuration as an example:
-
-https://github.com/curtiscde/hugo-theme-dopetrope/blob/master/exampleSite/config-prod.toml
-
-### Front Matter
-
- - `description`
- - `date`
- - `thumbnail`
- - `image`
- - `title`
- - `slug`
- - `author`
- - `draft`
- - `disqusid` - See [Blog Comments](#blog-comments)
- - `hidesidebar` - Set to false to hide the sidebar on specific pages
-
-### Blog Comments
-
-Blog comments are supported by Disqus. Once set up comments will be displayed on the blog posts as well as a count on the homepage.
-
-If not set up already, create a Disqus account and enter the account name in the `config.toml` file:
+## Installation
 
 ```
-[params.settings]
-    disqus = "hugo-dopetrope"
+$ cd /<your-hugo-site-directory>
+$ git submodule add https://github.com/miguelsimoni/hugo-initio.git themes/hugo-initio
 ```
 
-To display comments on a post a unique ID will need to be added to the specific blog posts. Enter these IDs in the front-matter of the post files themselves:
+More info: [hugo setup guide](https://gohugo.io/overview/installing/)
+
+## Configuration
+
+[Live Demo](https://miguelsimoni.github.io/hugo-initio-site/)
+
+[Example Site](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite)
+
+[config.toml](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite/config.toml)
+
+### Sections
+
+You can show or hide each home page section from the `config.toml`:
+
+```toml
+showSubheader = true
+showServices = true
+showRecentWorks = true
+showDownloads = true
+showClients = true
+```
+
+### Footer
+
+You can show or hide each footer widget from the `config.toml`:
+
+```toml
+showFooterContact = true
+showfooterFollowMe = true
+showFooterTextWidget = true
+showFooterFormWidget = true
+```
+
+### Social Networks
+
+You can add as many social networks as you want in the `params.social` array following this template:
+
+```toml
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/nickname"
+  icon = "fa-facebook-square"
+  footer = true
+  sharethis = true
+  network = "facebook"
+```
+
+See the whole configuration in the [config.toml](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite/config.toml) file.
+
+### Comments
+
+Powered by [Disqus](https://disqus.com)
+
+```toml
+[params.disqus]
+    site = "your-disqus-short-name"
+```
+
+Disable the comments system by leaving the `params.disqus.site` empty.
+
+### Google Analytics
+
+```toml
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+```
+
+Disable the Google Analytics by leaving `params.google.analytics.trackerID` empty.
+
+### Almost there...
+
+In order to see your site in action, you can run Hugo's built-in local server.
 
 ```
-disqusid = "1"
+$ cd exampleSite
+$ hugo server -t ../..
 ```
 
-### Cover Image
+Now enter [`http://localhost:1313/`](http://localhost:1313/) in the address bar of your browser.
 
-The cover image URL is hard-coded, therefore to replace this add an image to the following location in your Hugo application:
+## Deployment
 
-```
-/static/images/pic01.jpg
-```
+- [Hosting on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+- [More hosting and deployment options](https://gohugo.io/hosting-and-deployment/)
 
-## Development
+## Contributing
 
-### Example Site Deployment
+- Found a bug?
+- Got an idea for a new feature?
 
-```
-$ hugo --config config-prod.toml
-```
-
-## Original Theme Credits
-
- - [Dopetrope by HTML5 UP](https://html5up.net/dopetrope)
+Let me know it using the [issue tracker](https://github.com/miguelsimoni/hugo-initio/issues).
+Or make it directly: [pull request](https://github.com/miguelsimoni/hugo-initio/pulls).
 
 ## License
 
-This hugo theme is licensed under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/). 
+This port is released under the MIT License. Check the [original theme license](http://www.gettemplate.com/info/initio/) for additional licensing information.
 
-Read More - [LICENSE](LICENSE)
+## Thanks
+
+Thanks to [Steve Francia](https://github.com/spf13) for creating Hugo and the awesome community around the project. And also thanks to [Sergey Pozhilov](http://www.gettemplate.com/) for creating this awesome theme.

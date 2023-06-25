@@ -1,45 +1,55 @@
 {{ define "main" }}
-	<div id="page-wrapper">
+<main id="main">
 
-		<!-- Header -->
-		<div id="header-wrapper">
-			<div id="header">
+	<div class="container">
 
-				{{ partial "logo.html" . }}
-				{{ partial "nav.html" . }}
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+               <span class="posted-on">
+                  <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
+                    {{- .Date.Format "January 2, 2006" -}}
+                  </time>
+               </span>
+ 						</div>
+ 						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
+					</header>
+					<div class="entry-content">
+						{{ .Content }}
+					</div>
+				</article><!-- #post-## -->
 
 			</div>
-		</div>
+		</div> <!-- /row post  -->
 
-		<!-- Main -->
-		<div id="main-wrapper">
-			<div class="container">
-				{{ if and (or (eq .Site.Data.sidebar.content.position "left") (eq .Site.Data.sidebar.content.position "right")) (not (eq .Params.hidesidebar true)) }}
-				<div class="row">
-					{{ if eq .Site.Data.sidebar.content.position "left" }}
-					<div class="4u 12u(mobile)">
-						{{ partial "post/sidebar" . }}
-					</div>
-					{{ end }}
-					<div class="8u 12u(mobile)">
-						{{ partial "post/content.html" . }}
-					</div>
-					{{ if eq .Site.Data.sidebar.content.position "right" }}
-					<div class="4u 12u(mobile)">
-						{{ partial "post/sidebar" . }}
-					</div>
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="share">
+					{{ if .Params.Share }}
+							{{ partial "sharethis.html" . }}
 					{{ end }}
 				</div>
-				{{ else }}
-				{{ partial "post/content.html" . }}
-				{{ end }}
 			</div>
-		</div>
+		</div> <!-- /row share -->
+		<div class="clearfix"></div>
 
-		{{ partial "footer/index.html" . }}
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
 
-	</div>
+				<div id="comments">
+					{{ if .Params.Comments }}
+							{{ partial "disqus.html" . }}
+					{{ end }}
+				</div>
+			</div>
+		</div> <!-- /row comments -->
+		<div class="clearfix"></div>
 
-	{{ partial "scripts/index.html" . }}
+	</div>	<!-- /container -->
 
+</main>
 {{ end }}
