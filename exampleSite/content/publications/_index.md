@@ -1,9 +1,10 @@
 ---
 title: "Publications"
 type: page
+
 ---
 
-# Picadillo 
+<aside markdown="1">
 <a href="https://www.thedreadmachine.com/picadillo/" target="_blank">Picadillo</a>
 
 <a href="https://thefuriousgazelle.com/2021/09/13/learning-to-wipe-by-christopher-luis-jorge/" target="_blank">Learning to Wipe</a>
@@ -15,6 +16,8 @@ type: page
 <a href="https://open.spotify.com/episode/35WusbrFfrIYccceEdxd44" target="_blank">Male Pattern Baldness</a>
 
 <a href="https://www.acentosreview.com/august2019/misbehavior-by-christopher.html" target="_blank">Misbehavior</a>
+
+</aside>
 
 Oreo Fixation (published in Cypress Dome 2018; not available online)
 
