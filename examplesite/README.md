@@ -1,11 +1,5 @@
 ## Red Rose
 
-### This theme needs a lot of improvement
-
-visit [here](https://github.com/httpsecure/hugo-cat)
- for new update
-
-
 ![rose](https://raw.githubusercontent.com/httpsecure/hugo-theme-red-rose/main/images/screenshot.png)
 
 
@@ -15,9 +9,9 @@ visit [here](https://github.com/httpsecure/hugo-cat)
 
  * Some text on demo site from wikipedia
  * Flowers images from unsplash
-
+ * SVG icon bootstrap.
  
- [Demo Site](https://red-rose.netlify.app)
+ [Demo Site later]()
 
 ## Features
 
