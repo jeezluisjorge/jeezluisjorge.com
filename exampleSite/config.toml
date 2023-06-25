@@ -14,7 +14,7 @@ pygmentsStyle = "monokai"
   <u><a href="mailto:chrisluisjorge@gmail.com" target="_blank">Email me</a></u>
   '''
   description = "Writer + Musician"
-  favicon = "images/clj.jpg"
+  favicon = "favicon.ico"
   avatarURL = "images/clj.jpg"
   AvatarAltText = "me"
   avatarSize = "size-m"
