@@ -1,20 +1,13 @@
-name = "Red Rose"
+name = "Hinode"
 license = "MIT"
-licenselink = "https://github.com/httpsecure/hugo-theme-red-rose/blob/main/LICENSE"
-description = "Hugo Blog Portofolio Dark theme"
+licenselink = "https://github.com/gethinode/hinode/blob/main/LICENSE"
+description = "A clean documentation and blog theme for your Hugo site based on Bootstrap 5."
+homepage = "https://gethinode.com"
+demosite = "https://demo.gethinode.com"
+tags = ["blog", "documentation", "minimal", "modern", "customizable", "search", "bootstrap"]
+features = ["security aware", "fast by default", "seo-ready", "development tools", "bootstrap framework", "netlify-ready", "full text search", "page layouts"]
+min_version = "0.109.0"
 
-# The home page of the theme, where the source can be found.
-homepage = "https://github.com/httpsecure/hugo-theme-red-rose"
-
-# If you have a running demo of the theme.
-demosite = "https://red-rose.netlify.app/"
-
-tags = ["blog", "portofolio", "dark theme"]
-features = ["bootstrap"]
-
-
-# If the theme has a single author
 [author]
-    name = "Aziz"
-    homepage = "https://github.com/httpsecure"
-
+  name = "Mark Dumay"
+  homepage = "https://github.com/markdumay"
