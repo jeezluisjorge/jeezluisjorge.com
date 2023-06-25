@@ -4,7 +4,7 @@ type: page
 
 ---
 
-[Picadillo]("https://www.thedreadmachine.com/picadillo/"){:target="_blank"}
+[Picadillo]("https://www.thedreadmachine.com/picadillo/"){target="_blank"}
 
 
 <a href="https://www.thedreadmachine.com/picadillo/" target="_blank">Picadillo</a>
