@@ -1,7 +1,7 @@
 ---
 title: HOME
 description: Welcome!
-images: ["/images/picadillo.png"]
+images: ["/images/sample.jpg"]
 ---
 
 Hey, I'm Christopher Luis-Jorge: Writer Extraordinaire.
