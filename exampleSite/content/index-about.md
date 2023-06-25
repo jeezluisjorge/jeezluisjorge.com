@@ -1,6 +1,4 @@
-## Recent Publications
-
-<p style="text-align: center;">A piece of centered text</p>
+<p style="text-align: center; font-size:2vw;">Recent Publications</p>
 
 &nbsp;
 
