@@ -3,8 +3,7 @@ title: "Publications"
 type: page
 ---
 
-[Picadillo]("https://www.thedreadmachine.com/picadillo/"){target="_blank"}
-
+[Picadillo]("https://www.thedreadmachine.com/picadillo/")
 
 <a href="https://www.thedreadmachine.com/picadillo/" target="_blank">Picadillo</a>
 
