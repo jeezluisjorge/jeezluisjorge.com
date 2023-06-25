@@ -19,7 +19,7 @@ pygmentsStyle = "monokai"
   AvatarAltText = "me"
   avatarSize = "size-m"
   customHeadHTML = '''
-  <head style="background-color:#2e28b450;">
+  <header style="background-color:#2e28b450;">
   '''
   socialIcons = [
     {name = "twitter", url = "https://twitter.com/jeez_luis_jorge"},
