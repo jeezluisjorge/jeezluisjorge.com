@@ -3,17 +3,18 @@ title: "Publications"
 type: page
 ---
 
-[Picadillo](https://www.thedreadmachine.com/picadillo/)
 
-[Learning to Wipe](https://thefuriousgazelle.com/2021/09/13/learning-to-wipe-by-christopher-luis-jorge/)
+<a href="https://www.thedreadmachine.com/picadillo/" target="_blank">Picadillo</a>
 
-[The Duel // Marching Season](https://www.stoneboatwi.com/issue-11-1/luis-jorge)
+<a href="https://thefuriousgazelle.com/2021/09/13/learning-to-wipe-by-christopher-luis-jorge/" target="_blank">Learning to Wipe</a>
 
-[The Door Knocker](https://decodedpride.com/decoded-pride-issue-2-stories-being-released-now-and-throughout-pride/)
+<a href="https://www.stoneboatwi.com/issue-11-1/luis-jorge" target="_blank">The Duel // Marching Season</a>
 
-[Male Pattern Baldness](https://open.spotify.com/episode/35WusbrFfrIYccceEdxd44)
+<a href="https://decodedpride.com/decoded-pride-issue-2-stories-being-released-now-and-throughout-pride/" target="_blank">The Door Knocker</a>
 
-[Misbehavior](https://www.acentosreview.com/august2019/misbehavior-by-christopher.html)
+<a href="https://open.spotify.com/episode/35WusbrFfrIYccceEdxd44" target="_blank">Male Pattern Baldness</a>
+
+<a href="https://www.acentosreview.com/august2019/misbehavior-by-christopher.html" target="_blank">Misbehavior</a>
 
 Oreo Fixation (published in Cypress Dome 2018; not available online)
 
