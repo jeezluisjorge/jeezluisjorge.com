@@ -80,13 +80,6 @@ pygmentsCodeFences=true
   url = "/contact/"
   weight = -100
 
-[[menu.main]]
-  identifier = "blog"
-  name = "Post"
-  title = "Blog section"
-  url = "/post/"
-  weight = -90
-
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
