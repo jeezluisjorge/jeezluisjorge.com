@@ -18,7 +18,9 @@ pygmentsStyle = "monokai"
   avatarURL = "images/clj.jpg"
   AvatarAltText = "me"
   avatarSize = "size-m"
-  customHeadHTML = ""
+  customHeadHTML = '''
+  style="background-color:#2e28b450;"
+  '''
   socialIcons = [
     {name = "twitter", url = "https://twitter.com/jeez_luis_jorge"},
     {name = "email", url = "mailto:chrisluisjorge@gmail.com"},
