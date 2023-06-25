@@ -1,31 +1,50 @@
-{{- define "featured" -}}
-    {{- partial "home/featured.html" . -}}
-{{- end -}}
+{{ define "main" }}
+	<div id="page-wrapper">
 
-{{- define "main" -}}
-    {{- $page := . -}}
+		<!-- Header -->
+			<div id="header-wrapper">
+				<div id="header">
+					{{ partial "logo.html" . }}
+					{{ partial "nav.html" . }}
+					{{ partial "banner.html" . }}
+					{{ partial "intro.html" . }}
+				</div>
+			</div>
 
-    {{- range $index, $section := site.Params.home.sections -}}
-        {{- $sectionPage := site.GetPage "section" $section -}}
-        {{- $sectionURL := $sectionPage.RelPermalink -}}
-        {{- $title := $sectionPage.Title -}}
-        {{- $thumbnail := $sectionPage.Params.Thumbnail -}}
-        {{- $icon := $sectionPage.Params.Icon -}}
-        {{- $description := $sectionPage.Description -}}
-        {{- $content := $sectionPage.Content -}}
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div class="container">
+					{{ $portfolioItems := where .Site.RegularPages "Type" .Site.Params.Portfolio.foldername }}
+					{{ if $portfolioItems }}
+					<div class="row">
+						<div class="12u">
+							{{ partial "portfolio.html" (dict "context" . "portfolioItems" $portfolioItems) }}
+						</div>
+					</div>
+					{{ end }}
+					{{ $blogPaginator := .Paginate (where .Site.RegularPages "Type" .Site.Params.Blog.foldername) 2 }}
+					{{ if $blogPaginator.TotalNumberOfElements }}
+					<div class="row">
+						<div class="12u">
+							{{ partial "blog.html" (dict "title" .Site.Params.Blog.title "paginator" $blogPaginator) }}
+						</div>
+					</div>
+					<footer>
+						<ul class="actions" style="text-align: center">
+							<li><a href="{{ .Site.Params.Blog.foldername }}" class="button big">{{ .Site.Params.Blog.viewalltext }}</a></li>
+						</ul>
+					</footer>
+					{{ end }}
+				</div>
+			</div>
 
-        {{- $moreTitle := (T (printf "more%s" (strings.FirstUpper $section))) -}}
+			{{ partial "footer/index.html" . }}
 
-        {{- partial "assets/section-list.html" (dict 
-            "page" $page 
-            "section" $section 
-            "home" true 
-            "nested" true 
-            "thumbnail" $thumbnail
-            "icon" $icon
-            "content" $content
-            "moreTitle" $moreTitle
-            "sectionURL" $sectionURL)
-        -}}
-    {{- end -}}
-{{- end -}}
+	</div>
+
+	{{ partial "scripts/index.html" . }}
+	{{ if .Site.Params.Settings.disqus }}
+	<script id="dsq-count-scr" src="//{{ .Site.Params.Settings.disqus }}.disqus.com/count.js" async></script>
+	{{ end }}
+
+{{ end }}

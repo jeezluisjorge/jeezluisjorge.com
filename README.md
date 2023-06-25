@@ -1,147 +1,80 @@
-# Hugo Theme Hinode
+# Hugo Theme Dopetrope
 
-<!-- Tagline -->
-<p align="center">
-    <b>A clean documentation and blog theme for your Hugo site based on Bootstrap 5</b>
-    <br />
-</p>
+![](https://img.shields.io/badge/Hugo-%5E0.94.2-ff4088?style=flat-square&logo=hugo)
 
-<!-- Badges -->
-<p align="center">
-    <a href="https://gohugo.io" alt="Hugo website">
-        <img src="https://img.shields.io/badge/generator-hugo-brightgreen" />
-    </a>
-    <a href="https://app.netlify.com/sites/gethinode-demo/deploys" alt="Netlify Status">
-        <img src="https://img.shields.io/netlify/0ad42e3e-fdfa-4d37-8e26-58badd429a67" />
-    </a>
-    <a href="https://stats.uptimerobot.com/xyGVYhLJmV" alt="UptimeRobot Status">
-        <img src="https://img.shields.io/uptimerobot/status/m791334689-73d9dfc82030f4f955b2d6bb" />
-    </a>
-    <a href="https://github.com/gethinode/hinode/commits/main" alt="Last commit">
-        <img src="https://img.shields.io/github/last-commit/gethinode/hinode.svg" />
-    </a>
-    <a href="https://github.com/gethinode/hinode/issues" alt="Issues">
-        <img src="https://img.shields.io/github/issues/gethinode/hinode.svg" />
-    </a>
-    <a href="https://github.com/gethinode/hinode/pulls" alt="Pulls">
-        <img src="https://img.shields.io/github/issues-pr-raw/gethinode/hinode.svg" />
-    </a>
-    <a href="https://github.com/gethinode/hinode/blob/main/LICENSE" alt="License">
-        <img src="https://img.shields.io/github/license/gethinode/hinode" />
-    </a>
-</p>
+Dopetrope theme ported from [HTML5 UP](https://html5up.net/) for use with the [Hugo static site generator](https://gohugo.io/).
 
-<!-- Table of Contents -->
-<p align="center">
-  <a href="#about">About</a> •
-  <a href="#prerequisites">Prerequisites</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#configuration">Configuration</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#donate">Donate</a> •
-  <a href="#license">License</a>
-</p>
+Theme includes ability for:
 
-## About
+ - Portfolio items
+ - Blog posts
 
-![Logo](https://raw.githubusercontent.com/gethinode/hinode/main/static/img/logo.png)
+![](images/device-screenshots.png)
 
-- [Online Demo][demo]
-- [PageSpeed Insights][pagespeed]
-- [Mozilla Observatory][observatory]
+## Demo
 
-Hinode is a clean documentation and blog theme for [Hugo][hugo], an open-source static site generator. Based on the [Bootstrap 5][bootstrap] framework, the rendered site is fast, secure, and responsive. Hinode uses [FlexSearch][flexsearch] to enable full text search across your site. Finally, the theme uses [Node Package Manager][npm] to automate the build process and to keep track of dependencies.
+https://hugo-theme-dopetrope.netlify.com/
 
-Additional features include:
+## Setup
 
-- Switching between light mode and dark mode
-- Support for multiple languages
-- Reusable Bootstrap components through configurable shortcodes and partials
-- Embedded comments through light-weight integration with GitHub via [utteranc.es][utterances]
-- Integrated sidebar navigation for content-heavy sections, such as documentation pages
-- Reponsive image handling for multiple screen sizes and resolutions
-- Optimized search results, scoring 100 points for SEO on [PageSpeed Insights][pagespeed]
-- Secure by default, scoring A+ on [Mozilla Observatory test][observatory]
+### Configuration
 
-Detailed information about Hinode is available on the [official website][website].
+See the demo's configuration as an example:
 
-## Prerequisites
+https://github.com/curtiscde/hugo-theme-dopetrope/blob/master/exampleSite/config-prod.toml
 
-Hinode requires Git, Node.js and npm for local development and testing. Download the Git binary from the [official website][git_download]. Next, download and install [Node.js][nodejs] (it includes npm) for your platform.
+### Front Matter
 
-## Installation
+ - `description`
+ - `date`
+ - `thumbnail`
+ - `image`
+ - `title`
+ - `slug`
+ - `author`
+ - `draft`
+ - `disqusid` - See [Blog Comments](#blog-comments)
+ - `hidesidebar` - Set to false to hide the sidebar on specific pages
 
-Start a new Hinode project in three steps:
+### Blog Comments
 
-1. Create a new site
+Blog comments are supported by Disqus. Once set up comments will be displayed on the blog posts as well as a count on the homepage.
 
-    Hinode is available as a [template][repository_template], and a [main repository][repository]. The template [npm][npm] to link to the latest available version of Hinode. Unless you plan to customize a lot, it is recommended to use the template:
+If not set up already, create a Disqus account and enter the account name in the `config.toml` file:
 
-    ```bash
-    git clone https://github.com/gethinode/template.git my-hinode-site && cd my-hinode-site
-    ```
+```
+[params.settings]
+    disqus = "hugo-dopetrope"
+```
 
-    Use the main theme if you intend to customize the base code:
+To display comments on a post a unique ID will need to be added to the specific blog posts. Enter these IDs in the front-matter of the post files themselves:
 
-    ```bash
-    git clone https://github.com/gethinode/hinode.git my-hinode-site && cd my-hinode-site
-    ```
+```
+disqusid = "1"
+```
 
-1. Install dependencies
+### Cover Image
 
-    ```bash
-    npm install
-    ```
+The cover image URL is hard-coded, therefore to replace this add an image to the following location in your Hugo application:
 
-1. Start development server
+```
+/static/images/pic01.jpg
+```
 
-    ```bash
-    npm run start
-    ```
+## Development
 
-## Configuration
+### Example Site Deployment
 
-See the [official documentation][getstarted] on how to configure your site.
+```
+$ hugo --config config-prod.toml
+```
 
-## Contributing
+## Original Theme Credits
 
-See the [official documentation][contribute] on how to contribute to the open-source development of Hinode.
-
-## Credits
-
-Hinode is inspired by the following themes:
-
-- [Blist][blist] - a clean and fast blog theme for your Hugo site using Tailwind CSS.
-- [Doks][doks] - a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.
-
-## Donate
-
-<a href="https://www.buymeacoffee.com/markdumay" target="_blank" rel="noopener noreferrer"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;"></a>
+ - [Dopetrope by HTML5 UP](https://html5up.net/dopetrope)
 
 ## License
 
-The `hinode` and `template` codebase is released under the [MIT license][license]. The documentation (including the "README" and `docs` codebase) is licensed under the Creative Commons [(CC BY-NC 4.0)][cc-by-nc-4.0] license.
+This hugo theme is licensed under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/). 
 
-<!-- MARKDOWN PUBLIC LINKS -->
-[blist]: https://github.com/apvarun/blist-hugo-theme
-[bootstrap]: https://getbootstrap.com
-[cc-by-nc-4.0]: https://creativecommons.org/licenses/by-nc/4.0/
-[doks]: https://github.com/h-enk/doks
-[flexsearch]: https://github.com/nextapps-de/flexsearch
-[git_download]: https://git-scm.com
-[hugo]: https://gohugo.io
-[netlify]: https://www.netlify.com
-[nodejs]: https://nodejs.org
-[npm]: https://www.npmjs.com
-[observatory]: https://observatory.mozilla.org/analyze/demo.gethinode.com
-[pagespeed]: https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F
-[utterances]: https://utteranc.es
-
-<!-- MARKDOWN MAINTAINED LINKS -->
-[contribute]: https://gethinode.com/contribute
-[getstarted]: https://gethinode.com/docs
-[demo]: https://demo.gethinode.com/
-[license]: https://github.com/gethinode/hinode/blob/main/LICENSE
-[repository]: https://github.com/gethinode/hinode.git
-[repository_template]: https://github.com/gethinode/template.git
-[website]: https://gethinode.com/
+Read More - [LICENSE](LICENSE)

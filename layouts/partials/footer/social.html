@@ -1,17 +1,19 @@
-<div class="container-fluid">
-    <div class="row row-cols-1 row-cols-sm-4 bg-primary p-3 bg-opacity-{{ .Site.Params.style.themeOpacity | default "25" | safeHTML }} align-items-center">
-        <div class="col col-md-2 d-none d-md-block"></div>
-        <div class="col col-sm-6 col-md-4">
-            <div class="fs-3 fw-bold">{{ .Site.Params.footer.socialTitle }}</div>
-            <p>{{ .Site.Params.footer.socialCaption }}</p>
-        </div>
-        <div class="col text-sm-start text-center col-sm-6 col-md-4">
-            {{ range .Site.Menus.social -}}
-                <a href="{{ .URL | relLangURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Name | safeHTML }}" class="text-decoration-none link-secondary d-inline p-2">
-                    {{ .Pre | safeHTML }}
-                </a>
-            {{ end -}}
-        </div>
-        <div class="col col-md-2 d-none d-md-block"></div>
-    </div>
-</div>
+<ul class="social">
+    {{- with .Site.Data.footer.links.social }}
+    {{- if .facebook }}
+    <li><a class="icon fa-facebook" href="{{ .facebook }}"><span class="label">Facebook</span></a></li>
+    {{- end }}
+    {{- if .twitter }}
+    <li><a class="icon fa-twitter" href="{{ .twitter }}"><span class="label">Twitter</span></a></li>
+    {{- end }}
+    {{- if .dribbble }}
+    <li><a class="icon fa-dribbble" href="{{ .dribbble }}"><span class="label">Dribbble</span></a></li>
+    {{- end }}
+    {{- if .linkedin }}
+    <li><a class="icon fa-linkedin" href="{{ .linkedin }}"><span class="label">LinkedIn</span></a></li>
+    {{- end }}
+    {{- if .googleplus }}
+    <li><a class="icon fa-google-plus" href="{{ .googleplus }}"><span class="label">Google+</span></a></li>
+    {{- end }}
+    {{- end }}
+</ul>

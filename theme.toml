@@ -1,13 +1,18 @@
-name = "Hinode"
-license = "MIT"
-licenselink = "https://github.com/gethinode/hinode/blob/main/LICENSE"
-description = "A clean documentation and blog theme for your Hugo site based on Bootstrap 5."
-homepage = "https://gethinode.com"
-demosite = "https://demo.gethinode.com"
-tags = ["blog", "documentation", "minimal", "modern", "customizable", "search", "bootstrap"]
-features = ["security aware", "fast by default", "seo-ready", "development tools", "bootstrap framework", "netlify-ready", "full text search", "page layouts"]
-min_version = "0.109.0"
+name = "Dopetrope"
+license = "Creative Commons"
+licenselink = "https://github.com/curtiscde/hugo-theme-dopetrope/blob/master/LICENSE.md"
+description = "An elegant open-source and mobile-first theme"
+homepage = "https://html5up.net/uploads/demos/dopetrope/index.html"
+tags = ["blog", "html5up"]
+features = ["blog"]
+min_version = "0.94.2"
 
 [author]
-  name = "Mark Dumay"
-  homepage = "https://github.com/markdumay"
+    name = "Curtis Timson"
+    homepage = "https://curtiscode.dev/"
+
+# If porting an existing theme
+[original]
+    author = "HTML5UP"
+    homepage = "https://html5up.net"
+    repo = "https://html5up.net/dopetrope"
