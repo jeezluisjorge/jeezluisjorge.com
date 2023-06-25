@@ -11,17 +11,14 @@ pygmentsCodeFences=true
 
 [params.intro]
   main = "Christopher Luis-Jorge"
-  sub = "Writer and Hooligan"
+  sub = "Writer and Musician"
 
 [params.main]
-  latestPublishHeader = "My Latest Project"
+  latestPublishHeader = "Most Recent Publication"
 
 [taxonomies]
   design = "designs"
   tech = "techs"
-
-[blackfriday]
-  hrefTargetBlank = true
 
 [params]
   breadcrumb = true
@@ -30,15 +27,15 @@ pygmentsCodeFences=true
   rendererSafe = false # set to true if wish to remove the unsafe renderer setting below (recommended). Titles will not be run through markdownify
 
 [params.notFound]
-  gopher = "/images/gopher.png" # checkout https://gopherize.me/
-  h1 = 'Bummer!'
-  p = "It seems that this page doesn't exist."
+  gopher = "/images/error.jpg" # checkout https://gopherize.me/
+  h1 = 'Whoops!'
+  p = "This page doesn't exist."
 
 [params.sections]
   # Define how your sections will be called
   # when automatically pulled. For instance in the 404 page
   post = "article"
-  portfolio = "project"
+  portfolio = "publication"
 
 [params.sidebar]
   backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
@@ -49,12 +46,12 @@ pygmentsCodeFences=true
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/jeezluisjorge"
+  #github = "https://github.com/jeezluisjorge"
   twitter = "https://twitter.com/jeezluisjorge"
-  linkedin = "https://www.linkedin.com/in/"
-  facebook = "https://www.facebook.com/jeezluisjorge/"
-  youtube = "https://www.youtube.com/channel/UCQvrWHEAcDO3N9L5_GNB9Ew"
-  instagram = "https://www.instagram.com/jeezluisjorge/"
+  #linkedin = "https://www.linkedin.com/in/"
+  #facebook = "https://www.facebook.com/jeezluisjorge/"
+  #youtube = "https://www.youtube.com/channel/UCQvrWHEAcDO3N9L5_GNB9Ew"
+  #instagram = "https://www.instagram.com/jeezluisjorge/"
 
 [params.contact]
   email = ""
@@ -66,23 +63,30 @@ pygmentsCodeFences=true
 [[menu.main]]
   identifier = "about"
   name = "About"
-  title = "About section"
+  title = "About"
   url = "/about/"
   weight = -120
 
 [[menu.main]]
   identifier = "publications"
   name = "Publications"
-  title = "publications"
-  url = "/portfolio/"
+  title = "Publications"
+  url = "/publications/"
   weight = -110
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  title = "Contact"
+  url = "/contact/"
+  weight = -100
 
 [[menu.main]]
   identifier = "blog"
   name = "Post"
   title = "Blog section"
   url = "/post/"
-  weight = -100
+  weight = -90
 
 [sitemap]
   changefreq = "monthly"
