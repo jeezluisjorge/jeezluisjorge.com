@@ -13,7 +13,7 @@ pygmentsStyle = "monokai"
   customFooterHTML = '''
   <u><a href="mailto:chrisluisjorge@gmail.com" target="_blank">Email me</a></u>
   '''
-  description = "Writer and Musician"
+  description = "Writer + Musician"
   favicon = "images/favicon-16x16.png"
   avatarURL = "images/clj.jpg"
   AvatarAltText = "me"
