@@ -1,19 +1,16 @@
-name = "Hugo Cat"
-license = "BSD 2-Clause License"
-licenselink = "https://github.com/httpsecure/hugo-cat/blob/main/LICENSE"
-description = "Hugo Blog Portofolio Dark theme CSS only"
+# Congo theme for Hugo
 
-# The home page of the theme, where the source can be found.
-homepage = "https://github.com/httpsecure/hugo-cat"
+name = "congo"
+license = "MIT"
+licenselink = "https://github.com/jpanther/congo/blob/master/LICENSE"
+description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
 
-# If you have a running demo of the theme.
-demosite = "https://hugo-cat.pages.dev/"
+homepage = "https://github.com/jpanther/congo/"
+demosite = "https://jpanther.github.io/congo/"
 
-tags = ["blog", "portofolio", "dark theme"]
+tags = ["blog", "minimal", "responsive", "dark mode", "dark", "light", "tailwind", "personal"]
+features = ["syntax higlighting", "dark mode", "emoji"]
 
-
-# If the theme has a single author
 [author]
-    name = "Aziz N"
-    homepage = "https://github.com/httpsecure"
-
+  name = "James Panther"
+  homepage = "https://jamespanther.com/"
