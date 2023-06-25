@@ -10,7 +10,9 @@ enableRobotsTXT = true
 pygmentsStyle = "monokai"
 
 [params]
-  footer = "Christopher Luis-Jorge"
+  customFooterHTML = '''
+  <a href="mailto:chrisluisjorge@gmail.com" target="_blank">Email me</a>
+  '''
   description = "Writer and Musician"
   favicon = "images/favicon-16x16.png"
   avatarURL = "images/clj.jpg"
@@ -39,11 +41,6 @@ pygmentsStyle = "monokai"
     name = "Publications"
     url = "/publications/"
     weight = 3
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
 
 [markup]
   [markup.tableOfContents]
