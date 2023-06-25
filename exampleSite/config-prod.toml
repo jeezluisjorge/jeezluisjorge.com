@@ -1,12 +1,12 @@
 languageCode = "en-us"
-title = "Christopher Luis-Jorge"
-baseURL = "https://www.jeezluisjorge.com/"
+title = "Dopetrope"
+baseURL = "https://hugo-theme-dopetrope.netlify.com/"
 theme = "../.."
 
 [params.portfolio]
-    title = "Publications"
-    foldername = "publications"
-    findoutmoretext = "Read more"
+    title = "My Portfolio"
+    foldername = "portfolio"
+    findoutmoretext = "Find out more"
 
 [params.blog]
     title = "The Blog"
