@@ -15,9 +15,9 @@ type: page
 
 [Misbehavior](https://www.acentosreview.com/august2019/misbehavior-by-christopher.html)
 
-Oreo Fixation 
+Oreo Fixation (published in Cypress Dome 2018; not available online)
 
-The Great Fire of Rome
+The Great Fire of Rome (featured in Project Spotlight One Act Festival 2016; not available online)
 
-In a Cafe
+In a Cafe (featured in Cypress Dome 2016; not available online)
 
