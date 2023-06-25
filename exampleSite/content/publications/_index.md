@@ -1,7 +1,6 @@
 ---
 title: "Publications"
 type: page
-
 ---
 
 [Picadillo]("https://www.thedreadmachine.com/picadillo/"){target="_blank"}
