@@ -7,7 +7,7 @@
 &nbsp;
 
 <div style="position:relative;text-align:center;">
-  <img src="/images/picadillo.png" alt="picadillo" style="width:100%;">
+  <img src="/images/picadillo.png" alt="picadillo" style="width:70%;">
   <div style="position:absolute;left:50%;top:10%;transform:translate(-50%,-50%);">Picadillo</div>
 </div>
 
