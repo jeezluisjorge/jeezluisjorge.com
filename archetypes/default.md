@@ -1,9 +1,8 @@
 ---
-categories: []
+title: '{{ replace .Name "-" " " | title }}'
 date: {{ .Date }}
-description: ""
-draft: true
-link: ""
-tags: []
-title: "{{ replace .Name "-" " " | title }}"
+menu: 
+  main:
+    name:
+    weight:
 ---

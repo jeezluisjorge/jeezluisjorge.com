@@ -1,48 +1,12 @@
-demosite = "https://willfaught.com/paige"
-description = "Powerful, pliable pixel perfection. An advanced Hugo theme."
-features = [
-  "accessibility",
-  "blog",
-  "bootstrap",
-  "customizable",
-  "facebook sharing",
-  "google analytics",
-  "header links",
-  "landing page",
-  "light color scheme",
-  "math typesetting",
-  "menus",
-  "minimal design",
-  "responsive",
-  "safari and firefox reader view",
-  "search",
-  "sections",
-  "seo",
-  "single column",
-  "social links",
-  "twitter sharing"
-]
-homepage = "https://github.com/willfaught/paige"
-license = "Apache-2.0"
-licenselink = "https://www.apache.org/licenses/LICENSE-2.0"
-name = "Paige"
-tags = [
-  "blog",
-  "bootstrap",
-  "contact",
-  "dark",
-  "dark mode",
-  "gallery",
-  "hero",
-  "landing",
-  "light",
-  "minimal",
-  "multilingual",
-  "personal",
-  "portfolio",
-  "responsive"
-]
+name = "Notrack"
+license = "GPLv3"
+licenselink = "https://github.com/gevhaz/hugo-theme-notrack/blob/master/LICENSE"
+description = "A libre hugo personal webpage theme without reliance on third parties and no tracking."
+homepage = "https://github.com/gevhaz/hugo-theme-notrack"
+tags = ["minimal", "personal", "responsive", "libre", "flexbox"]
+features = ["gallery", "blog", "resume", "drop-down menu"]
+min_version = "0.70.0"
 
 [author]
-homepage = "https://willfaught.com"
-name = "Will Faught"
+  name = "Simon Bengtsson"
+  homepage = "https://github.com/gevhaz"
