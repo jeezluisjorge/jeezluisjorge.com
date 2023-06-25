@@ -4,9 +4,9 @@ type: page
 
 ---
 
-<aside markdown="1">
+<div>
 <a href="https://www.thedreadmachine.com/picadillo/" target="_blank">Picadillo</a>
-</aside>
+</div>
 
 <a href="https://thefuriousgazelle.com/2021/09/13/learning-to-wipe-by-christopher-luis-jorge/" target="_blank">Learning to Wipe</a>
 
