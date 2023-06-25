@@ -17,9 +17,11 @@ type: page
 
 &nbsp;
 
-Oreo Fixation (published in Cypress Dome 2018; not available online)
+#### Not available online 
 
-The Great Fire of Rome (featured in Project Spotlight One Act Festival 2016; not available online)
+Oreo Fixation - published in Cypress Dome, 2018
 
-In a Cafe (featured in Cypress Dome 2016; not available online)
+The Great Fire of Rome - featured in Project Spotlight One Act Festival, 2016
+
+In a Cafe - featured in Cypress Dome, 2016
 
