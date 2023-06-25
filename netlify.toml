@@ -1,7 +1,7 @@
 [build]
   base = "exampleSite/"
   publish = "public"
-  command = "hugo --gc --themesDir ../.. --config config-prod.toml"
+  command = "hugo --gc --themesDir ../.. --config config.toml"
 
 [build.environment]
   HUGO_VERSION = "0.73.0"
