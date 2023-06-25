@@ -12,7 +12,7 @@ pygmentsStyle = "monokai"
 [params]
   footer = "Christopher Luis-Jorge"
   description = "Writer and Musician"
-  avatarURL = "/images/clj.jpg"
+  avatarURL = "images/clj.jpg"
   AvatarAltText = "me"
   avatarSize = "size-m"
   customHeadHTML = """
