@@ -3,7 +3,7 @@ title: "About"
 type: page
 ---
 
-Hi, I'm Christopher Luis-Jorge.  
+Hi, I'm Christopher Luis-Jorge. <br>
 
 I'm a Cuban-American author based in Washington, DC who specializes in the playful, the irreverent, and the brief. My work has been featured in *The Dread Machine*, *Stoneboat Literary Journal*, and *The Acentos Review*. I've also previously worked as an Intern Editor for *The Florida Review*, Reader for *StoryQuarterly*, and Nonfiction Reader & Art Director for *The Cypress Dome*.  
 
