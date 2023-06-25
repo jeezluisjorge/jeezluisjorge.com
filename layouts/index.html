@@ -1,46 +1,21 @@
-{{ define "main"}}
-  <main id="main">
+{{ partial "header" .}}
 
-    <div class="container">
-  
-      {{ if .Site.Params.showSubheader }}
-        {{ partial "home/subheader.html" . }}
-      {{ end }}
-      
-        {{ range .Site.Sections }}
-            {{ range .Sections.ByWeight }}
-                {{ $stype := .Type}}
-                {{ if (or (and (eq $stype "service") (.Site.Params.showServices))
-                          (and (eq $stype "recentwork") (.Site.Params.showRecentWorks))
-                          (and (eq $stype "download") (.Site.Params.showDownloads))
-                          (and (eq $stype "client") (.Site.Params.showClients))
-                          (eq $stype "single")) }}
+{{ if .Site.Params.rendererSafe }}
+  <h1>{{ .Title }}</h1>
+{{ else }}
+  <h1>{{ .Title | markdownify }}</h1>
+{{ end}}
 
-                     <div class="row section featured topspace">
-                       <h2 class="section-title">
-                         <span>{{.Title}}</span>
-                       </h2>
-                     {{ if eq $stype "service" }}
-                       {{ partial "home/services.html" . }}
+{{ .Content }}
 
-                     {{ else if eq $stype "recentwork" }}
-                       {{ partial "home/recentworks.html" . }}
+<h2>{{ .Site.Params.main.latestPublishHeader | default "My Latest Job" }}</h2>
+  {{ $pages := where site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  {{ range first 1 $pages }}
+    {{ if in .Site.Params.mainSections "portfolio" }}
+      {{ partial "portfolio/item" .}}
+    {{ else if in .Site.Params.mainSections "post" }}
+      {{ partial "post/item" .}}
+    {{ end }}
+  {{ end }}
 
-                     {{ else if eq $stype "download" }}
-                       {{ partial "home/download.html" . }}
-
-                     {{ else if eq $stype "client" }}
-                       {{ partial "home/clients.html" . }}
-
-                     {{ else if eq $stype "single"  }}
-                       {{ partial "home/single.html" . }}
-
-                     {{ end }}
-                </div>	<!-- /section -->
-              {{ end }}
-            {{ end }}
-        {{ end }}
-    </div>	<!-- /container -->
-  </main>
-
-{{ end }}
+{{ partial "footer" .}}

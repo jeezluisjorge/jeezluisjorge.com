@@ -1,106 +1,102 @@
-baseURL = "https://example.com/"
-languageCode = "en"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
-theme = "hugo-initio"
+baseURL = "https://jeezluisjorge.com/"
+languageCode = "en-us"
+title = "Christopher Luis-Jorge"
+theme = "personal-web"
+copyright="© Christopher Luis-Jorge"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Christopher Luis-Jorge"
+  sub = "Writer and Musician"
+
+[params.main]
+  latestPublishHeader = "Most Recent Publication"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
 
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
-    year = 2017
-    avatar = "images/guy.jpg"
-    avatarclass = "circle"
-    background = ""
-    banner = "images/bg_head.jpg"
-    favicon = "images/gt_favicon.png"
-    DateForm = "January 2, 2006"
-    author = "Sergey Pozhilov (GetTemplate.com)"
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+  rendererSafe = false # set to true if wish to remove the unsafe renderer setting below (recommended). Titles will not be run through markdownify
 
-    showSubheader = true
-    showServices = true
-    showRecentWorks = true
-    showDownloads = true
-    showClients = true
+[params.notFound]
+  h1 = 'Whoops!'
+  p = "This page doesn't exist."
 
-    showFooterContact = true
-    showFooterFollowMe = true
-    showFooterTextWidget = true
-    showFooterFormWidget = true
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "publication"
+
+[params.sidebar]
+  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "" # - default "/images/clj.jpg"
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+  #github = "https://github.com/jeezluisjorge"
+  twitter = "https://twitter.com/jeezluisjorge"
+  #linkedin = "https://www.linkedin.com/in/"
+  #facebook = "https://www.facebook.com/jeezluisjorge/"
+  #youtube = "https://www.youtube.com/channel/UCQvrWHEAcDO3N9L5_GNB9Ew"
+  #instagram = "https://www.instagram.com/jeezluisjorge/"
+
+[params.contact]
+  email = ""
+  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+
+[menu]
 
 [[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
+  identifier = "about"
+  name = "About"
+  title = "About"
+  url = "/about/"
+  weight = -120
+
 [[menu.main]]
-    name = "blog"
-    url = "/post/"
-    weight = 5
+  identifier = "publications"
+  name = "Publications"
+  title = "Publications"
+  url = "/publications/"
+  weight = -110
 
-[params.disqus]
-    site = "hugo-initio-site.disqus.com"
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  title = "Contact"
+  url = "/contact/"
+  weight = -100
 
-[params.sharethis]
-    property = "123456789012345678901234"
-    custom = true
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
-[params.google.analytics]
-    trackerID = "GA-000000000-0"
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
 
-[[params.social]]
-	title = "facebook"
-	url = "https://www.facebook.com/nickname"
-    icon = "fab fa-facebook-square"
-    footer = true
-    sharethis = true
-    network = "facebook"
-[[params.social]]
-	title = "twitter"
-	url = "https://twitter.com/nickname"
-    icon = "fab fa-twitter-square"
-    footer = true
-    sharethis = true
-    network = "twitter"
-[[params.social]]
-	title = "instagram"
-	url = "https://www.instagram.com/nickname"
-    icon = "fab fa-instagram"
-    footer = true
-    sharethis = false
-    network = ""
-[[params.social]]
-	title = "google+"
-	url = "https://plus.google.com/+nickname"
-    icon = "fab fa-google-plus-square"
-    footer = false
-    sharethis = true
-    network = "googleplus"
-[[params.social]]
-	title = "linkedin"
-	url = "https://www.linkedin.com/in/nickname"
-    icon = "fab fa-linkedin"
-    footer = false
-    sharethis = true
-    network = "linkedin"
-[[params.social]]
-	title = "tumblr"
-	url = "https://nickname.tumblr.com"
-    icon = "fab fa-tumblr-square"
-    footer = false
-    sharethis = false
-    network = "tumblr"
-[[params.social]]
-	title = "github"
-	url = "https://github.com/nickname"
-    icon = "fab fa-github"
-    footer = true
-    sharethis = false
-    network = ""
-[[params.social]]
-	title = "email"
-	url = "mailto:some.email@somewhere.com"
-    icon = "fas fa-envelope-square"
-    footer = false
-    sharethis = true
-    network = "email"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
