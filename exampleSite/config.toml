@@ -37,7 +37,8 @@ pygmentsStyle = "monokai"
   """
   socialIcons = [
     {name = "twitter", url = "https://twitter.com/jeez_luis_jorge"},
-    {name = "email", url = "mailto:chrisluisjorge@gmail.com"}
+    {name = "email", url = "mailto:chrisluisjorge@gmail.com"},
+    {name = "youtube", url = "https://www.youtube.com/@thespookinghour6227"}
   ]
   metaKeywords = ["blog", "gokarna", "hugo"]
 
