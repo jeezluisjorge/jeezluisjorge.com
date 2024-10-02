@@ -2,7 +2,7 @@
 
 ---
 
-<p style="text-align: center; font-size:2em;">Latest Publication</p>
+<p style="text-align: center; font-size:2em;">Jump right in!</p>
 
 &nbsp;
 
