@@ -5,7 +5,7 @@ type: page
 
 <a href="https://www.bafflingmag.com/issue-seventeen/a-pilgrims-progress" target="_blank" style="font-size:2.2em;">A Pilgrim's Progress</a>
 
-<a href="https://www.pointsincase.com/articles/can-i-tour-your-bathroom-its-an-emergency" style="font-size:2.2em;">Can I Tour Your Bathroom? It's an Emergency</a>
+<a href="https://www.pointsincase.com/articles/can-i-tour-your-bathroom-its-an-emergency" target="_blank" style="font-size:2.2em;">Can I Tour Your Bathroom? It's an Emergency</a>
 
 <a href="https://www.thedreadmachine.com/picadillo/" target="_blank" style="font-size:2.2em;">Picadillo</a>
 
