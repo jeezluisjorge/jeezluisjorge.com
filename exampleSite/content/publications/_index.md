@@ -3,6 +3,10 @@ title: "Publications"
 type: page
 ---
 
+<a href="https://www.bafflingmag.com/issue-seventeen/a-pilgrims-progress" target="_blank" style="font-size:2.2em;">A Pilgrim's Progress</a>
+
+<a href="https://www.pointsincase.com/articles/can-i-tour-your-bathroom-its-an-emergency" style="font-size:2.2em;">Can I Tour Your Bathroom? It's an Emergency</a>
+
 <a href="https://www.thedreadmachine.com/picadillo/" target="_blank" style="font-size:2.2em;">Picadillo</a>
 
 <a href="https://thefuriousgazelle.com/2021/09/13/learning-to-wipe-by-christopher-luis-jorge/" target="_blank" style="font-size:2.2em;">Learning to Wipe</a>
