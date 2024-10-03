@@ -3,19 +3,19 @@ title: "Music"
 type: page
 ---
 
-<a href="https://burdenslanding.bandcamp.com/album/could-this-be-a-portal" target="_blank" style="font-size:2.2em;">  "Could This Be A Portal?" EP by Burden's Landing </a><br>
+<a href="https://burdenslanding.bandcamp.com/album/could-this-be-a-portal" target="_blank" style="font-size:2.2em;">  Could This Be A Portal? EP by Burden's Landing </a><br>
 Bass and Backing Vocals (Indie Rock)
 
-<a href="https://open.spotify.com/track/7cmcDknU78bWUL6kg78zk7?si=c595a7b3d98c479a" target="_blank" style="font-size:2.2em;">  "Are We Giving Up?" by Drewby </a><br>
-Session Bassist (Indie Pop)
-
-<a href="https://open.spotify.com/track/5SskuqQyKY1TDoeAbXC0tL?si=c1dfaba2bcfb4768" target="_blank" style="font-size:2.2em;">  "I Love U" by Drewby </a><br>
-Session Bassist (Indie Pop)
-
-<a href="https://youtu.be/4543FdXuKY4?si=-APB_CRNNtQnGxqI" target="_blank" style="font-size:2.2em;">  "The Bellows (Live)" by Glass Crush </a><br>
+<a href="https://youtu.be/4543FdXuKY4?si=-APB_CRNNtQnGxqI" target="_blank" style="font-size:2.2em;">  The Bellows (Live) by Glass Crush </a><br>
 Bass and Backing Vocals (Acoustic / Shoegaze)
 
-<a href="https://youtu.be/HEnWplVwUsk?si=H0w-TB9uWsI1IKdt" target="_blank" style="font-size:2.2em;">  "Thermonuclear Existence" by Selfless Oscillator </a><br>
+<a href="https://open.spotify.com/track/7cmcDknU78bWUL6kg78zk7?si=c595a7b3d98c479a" target="_blank" style="font-size:2.2em;">  Are We Giving Up? by Drewby </a><br>
+Session Bassist (Indie Pop)
+
+<a href="https://open.spotify.com/track/5SskuqQyKY1TDoeAbXC0tL?si=c1dfaba2bcfb4768" target="_blank" style="font-size:2.2em;">  I❤︎U by Drewby </a><br>
+Session Bassist (Indie Pop)
+
+<a href="https://youtu.be/HEnWplVwUsk?si=H0w-TB9uWsI1IKdt" target="_blank" style="font-size:2.2em;">  Thermonuclear Existence by Selfless Oscillator </a><br>
 Guest Vocals (Harsh Noise / Avant Garde)
 
 &nbsp;
