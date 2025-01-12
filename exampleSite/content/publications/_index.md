@@ -31,6 +31,8 @@ type: page
 
 #### Not available online - email me for a copy
 
+Haiku #1 - Golden Triangle Haiku Contest, 2024
+
 Oreo Fixation - published in Cypress Dome, 2018
 
 The Great Fire of Rome - featured in Project Spotlight One Act Festival, 2016
