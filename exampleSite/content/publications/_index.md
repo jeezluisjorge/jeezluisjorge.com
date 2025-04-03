@@ -2,7 +2,8 @@
 title: "Publications"
 type: page
 ---
-
+&nbsp;
+&nbsp;
 <p style="text-align: center; font-size:2em;">Featured Story</p>
 
 &nbsp;
@@ -16,8 +17,10 @@ type: page
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
 
-####  Online Publications
+
 
 <a href="https://www.bafflingmag.com/issue-seventeen/a-pilgrims-progress" target="_blank" style="font-size:2.2em;">   A Pilgrim's Progress</a><br>
 (Speculative / Horror / Fantasy)
