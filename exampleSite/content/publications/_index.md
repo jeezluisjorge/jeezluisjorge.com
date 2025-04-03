@@ -13,7 +13,10 @@ type: page
   <div style="position:absolute;left:50%;top:15%;transform:translate(-50%,-50%);color:white;font-weight:bold;font-size:2em;">Picadillo</div>
   <div style="position:absolute;bottom:2%;right:30%;color:white;font-size:0.5em"><a href="https://linktr.ee/NinjaJo?fbclid=IwAR0jMFDaXsZvY13q258QeQKtFVxRCistaLdW5xjqP3AeLPPHAMZ1FixY_qM" target="_blank">art by Katerina Belikova</a></div>
 </div>
-<br><br>
+
+<br>
+<br>
+<br>
 
 <a href="https://www.bafflingmag.com/issue-seventeen/a-pilgrims-progress" target="_blank" style="font-size:2.2em;">   A Pilgrim's Progress</a><br>
 (Speculative / Horror / Fantasy)
