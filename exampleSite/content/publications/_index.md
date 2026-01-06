@@ -18,6 +18,10 @@ type: page
 <br>
 <br>
 
+<a href="https://www.typebarmagazine.com/2025/05/25/pumping-gold-how-a-decade-of-bodybuilding-and-terrorism-started-a-wave-of-cheap-fantasy-movies/" target="_blank" style="font-size:2.2em;">  Pumping Gold: How a Decade of Bodybuilding and Terrorism Started a Wave of Cheap Fantasy Movies
+</a><br>
+(Essay / Film History)
+
 <a href="https://www.bafflingmag.com/issue-seventeen/a-pilgrims-progress" target="_blank" style="font-size:2.2em;">   A Pilgrim's Progress</a><br>
 (Speculative / Horror / Fantasy)
 
@@ -45,6 +49,12 @@ type: page
 &nbsp;
 
 #### Not available online - email me for a copy
+
+Scholarship - Rhizome Magazine, 2026
+
+Cowford, Florida - Rhizome Magazine, 2026
+
+Elegy for a Hungry Roomba - Rhizome Magazine, 2026
 
 Haiku #1 - Golden Triangle Haiku Contest, 2024
 
