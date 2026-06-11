@@ -18,6 +18,8 @@ type: page
 <br>
 <br>
 
+#### Prose
+
 <a href="https://www.typebarmagazine.com/2025/05/25/pumping-gold-how-a-decade-of-bodybuilding-and-terrorism-started-a-wave-of-cheap-fantasy-movies/" target="_blank" style="font-size:2.2em;">  Pumping Gold: How a Decade of Bodybuilding and Terrorism Started a Wave of Cheap Fantasy Movies
 </a><br>
 (Essay / Film History)
@@ -47,6 +49,20 @@ type: page
 (Comedy / Realist / Flash Fiction)
 
 &nbsp;
+
+#### Games Writing
+
+<a href="https://www.babaroga.com/games" target="_blank" style="font-size:2.2em;">  Babaroga LLC ; 3 IPs, Police Trainer: Remastered, & 2 forthcoming titles </a><br>
+(Writer, Narrative Designer)
+
+<a href="https://sbarrett.itch.io/jiffy-pics-open-247" target="_blank" style="font-size:2.2em;">  Jiffy Pics: Open 24/7 ; Game Jam</a><br>
+(Writer, Sound, Textures)
+
+<a href="https://aisforauroch.itch.io/the-dreamer-and-the-doer" target="_blank" style="font-size:2.2em;"> The Dreamer & The Doer</a><br>
+(Solo Dev)
+
+&nbsp;
+
 
 #### Not available online - email me for a copy
 
