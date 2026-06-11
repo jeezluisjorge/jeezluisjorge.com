@@ -52,13 +52,16 @@ type: page
 
 #### Games Writing
 
-<a href="https://www.babaroga.com/games" target="_blank" style="font-size:2.2em;">  Babaroga LLC ; 3 IPs, Police Trainer: Remastered, & 2 forthcoming titles </a><br>
+<a href="https://www.babaroga.com/games" target="_blank" style="font-size:2.2em;">  Babaroga LLC </a><br>
+3 IPs, Police Trainer: Remastered, & 2 forthcoming titles
 (Writer, Narrative Designer)
 
-<a href="https://sbarrett.itch.io/jiffy-pics-open-247" target="_blank" style="font-size:2.2em;">  Jiffy Pics: Open 24/7 ; Game Jam</a><br>
+<a href="https://sbarrett.itch.io/jiffy-pics-open-247" target="_blank" style="font-size:2.2em;">  Jiffy Pics: Open 24/7</a><br>
+Game Jam
 (Writer, Sound, Textures)
 
 <a href="https://aisforauroch.itch.io/the-dreamer-and-the-doer" target="_blank" style="font-size:2.2em;"> The Dreamer & The Doer</a><br>
+Interactive Music Environment
 (Solo Dev)
 
 &nbsp;
