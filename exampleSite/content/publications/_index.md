@@ -19,7 +19,7 @@ type: page
 <br>
 
 
-#### Prose
+# Prose
 
 <a href="https://www.typebarmagazine.com/2025/05/25/pumping-gold-how-a-decade-of-bodybuilding-and-terrorism-started-a-wave-of-cheap-fantasy-movies/" target="_blank" style="font-size:2.2em;">  Pumping Gold: How a Decade of Bodybuilding and Terrorism Started a Wave of Cheap Fantasy Movies
 </a><br>
@@ -52,7 +52,7 @@ type: page
 &nbsp;
 
 
-#### Games Writing
+# Games Writing
 
 <a href="https://www.babaroga.com/games" target="_blank" style="font-size:2.2em;">  Babaroga LLC </a><br>
 3 IPs, Police Trainer: Remastered, & 2 forthcoming titles
@@ -73,7 +73,7 @@ Mixed Media Pixel Art Musical Experience
 
 &nbsp;
 
-#### Not available online - email me for a copy
+# Not available online - email me for a copy
 
 Scholarship - Rhizome Magazine, 2026
 
