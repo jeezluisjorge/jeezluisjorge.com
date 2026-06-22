@@ -3,6 +3,9 @@ title: "Music"
 type: page
 ---
 
+<a href="https://www.youtube.com/watch?v=WCEvXLcMwHA" target="_blank" style="font-size:2.2em;">  holy_terror_rhizome_bootleg by Holy Terror </a><br>
+Bass, Vocals, Front Person, Song Writer, Artistic Director, & Event Planner
+
 <a href="https://burdenslanding.bandcamp.com/album/could-this-be-a-portal" target="_blank" style="font-size:2.2em;">  Could This Be A Portal? EP by Burden's Landing </a><br>
 Bass and Backing Vocals (Indie Rock)
 
